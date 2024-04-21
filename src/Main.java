@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String login = "java_skypro_go";
+        String password = "D_1hWiKjjP_9";
+        String confirmPassword = "D_1hWiKjjP_9c";
+        IndentificationService.determine(login, password, confirmPassword);
     }
 }
